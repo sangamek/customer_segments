@@ -14436,7 +14436,7 @@ c84555xzzpXhnSXnnHPOOeecK8M7S84555xzzjlXxv8D7iIZnX3VP8AAAAAASUVORK5CYII=
 <li>Most features are unrelated because large number of data points are near 0.</li>
 <li>Detergent_paper and grocery exibit higher degree of correlation (0.92), Milk and Groceries come next (0.73), Milk and Detergent_paper also has a high value comparitively (0.66)</li>
 <li>This confirms my suspicion that Delicatessen feature cannot be predicted based on any other feature provided. Thus making it a important feature to be included.</li>
-<li>Data points for this feature stays very close to the 0 as expected.</li>
+<li>Data points for this feature stays very close to the 0 as expected. They all seem to be positively skewed, but with a significant amount of outliers.</li>
 </ul>
 
 </div>
@@ -19856,9 +19856,9 @@ SZIkSSqWgUiSJElSsQxEkiRJkoplIJIkSZJULAORJEmSpGL9DyNJfKgklYs0AAAAAElFTkSuQmCC
 <li>Total variance of data by the first 4 principal components is 93.11%</li>
 <li><ul>
 <li>Dimension 1- Customers in this dimension will spend almost equally on Fresh and Frozen category. They are least expected to spend on Detergent_Paper, Grocery, Milk, Delicatessen (listed in descending order). - Resturant</li>
-<li>Dimension 2 - Customers will not spend on any of the category. </li>
-<li>Dimension 3 - Will spend heavily on Delicatessan and Frozen items. Least likely to spend on Fresh and Detergent_Paper</li>
-<li>Dimension 4 - Spends most on Frozen and least likley to spend on Delicatessan and Fresh </li>
+<li>Dimension 2 - Customers will not spend on any of the category. - Retail store</li>
+<li>Dimension 3 - Will spend heavily on Delicatessan and Frozen items. Least likely to spend on Fresh and Detergent_Paper - Cafe</li>
+<li>Dimension 4 - Spends most on Frozen and least likley to spend on Delicatessan and Fresh - Ice cream shop or cremery </li>
 </ul>
 </li>
 </ul>
@@ -22486,7 +22486,7 @@ Index 439: Cafes - Numbers are below mean in all categories.</li>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> A supervised learner could be used to identify differences between the clusters and assiging a label.</p>
+<p><strong>Answer:</strong> We can use the predicted label as input for the supervised learner. A supervised learner could be used to identify differences between the clusters and could learn additional facts. Thus enabling with better prediction.</p>
 <p>Once labled classifying items based on prediction can be achieved.</p>
 
 </div>
